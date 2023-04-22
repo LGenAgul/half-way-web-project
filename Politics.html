@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sports - GeoForums</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+	crossorigin="anonymous"
+  	/>
+  	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+	integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+	crossorigin="anonymous"
+  	/>
+      <script src="script.js"></script>
+</head>
+
+<body>
+
+	<header style=" 
+	position: sticky;
+	top: 0;
+	width: 100%;
+	 z-index: 1;
+	">
+		<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+			<a class="navbar-brand" href="#">
+				<img src="./images/logo.png" alt="" width="30" height="30" class="d-inline-block align-top" >
+			</a>
+			<h3 id="title">GeoForums</h3>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="./index.html" id="home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./Forums.html" id="forums">Forums</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="members">Members</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="contact">Contact</a>
+					</li>
+					<li class="nav-item">
+						<button class="btn btn-outline-dark" onclick="gashaveba()">
+						  <i class="fa fa-moon"></i>
+						</button>
+					</li>
+					  
+					<li class="nav-item">
+						<button class="btn btn-danger" onclick="translateToGeorgian()">Geo</button>
+                    </li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+    <hr>
+    <main class="container my-4">
+
+        <section class="mb-4">
+            <h2>Latest Politics News</h2>
+            <hr>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/skynews-trump-wrestling_6093981.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Donald Trump arrested?</h5>
+                            <p class="card-text">Mr Trump is planning to surrender to authorities on Tuesday, and his arraignment is scheduled for 14:15 local time (19:15 BST). He will likely arrive at the courthouse about an hour or so before that for processing.</p>
+                            <a href="./Kane.html" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/12ed0d90ac57ef017bc08ab6b172a809.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Prigozhin asks for surrender</h5>
+                            <p class="card-text">Yevgeny Prigozhin, leader of the Wagner Group, asks the Russian authorities to declare the end of the war and concentrate on gaining a foothold in the occupied territories of Ukraine. </p>
+                            <a href="./UFC.html" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/https___d1e00ek4ebabms.cloudfront.net_production_53d2fec8-f316-469a-95e5-ce2098385486.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">German foreign minister warns China on Taiwan </h5>
+                            <p class="card-text">
+                                Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. 
+                               </p>
+                            <a href="./kvicha.html" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <section class="mb-4">
+            <h2>Discussion threads</h2>
+            <hr>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+    
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/ukr.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">When will the war end?</h5>
+                            <p class="card-text">Discuss how long this war will go on, What the climax will be and what consequences will it have on our world.</p>
+                            <a href="./Monaco.html" class="btn btn-danger">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/taiwan.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Will China invade Taiwan?</h5>
+                            <p class="card-text">
+                                There are rumors going on that Chine is planning a full-scale invasion of it's neighbouring island.
+                            </p>
+                            <a href="./Holloway.html" class="btn btn-danger">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="mb-4">
+            <h2>Featured Politician</h2>
+            <hr>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="./images/tsoho.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <h3>Mugabe Domugabe</h3>
+                    <p>miketyson.com
+                    Mugabe Domugabe was a Zimbabwean revolutionary and politician who served as Prime Minister of Zimbabwe from 1980 to 1987 and then as President from 1987 to 2017. He served as Leader of the Zimbabwe African National Union (ZANU) from 1975 to 1980 and led its successor political party, the ZANU – Patriotic Front (ZANU–PF), from 1980 to 2017. Ideologically an African nationalist, during the 1970s and 1980s he identified as a Marxist–Leninist, and as a socialist after the 1990s
+                    </p>
+                    <a href="./Tyson.html" class="btn btn-danger">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-danger text-center text-white p-4 mt-4" style=" 
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+	height: 65px;
+    ">
+        <p>&copy; 2023 GeoForums. All rights reserved.</p>
+    </footer>
+    
+    </body>
+    </html>            

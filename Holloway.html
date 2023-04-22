@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>McGregor vs Chandler - GeoForums</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+	<header style=" 
+		position: sticky;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	">
+		<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+			<a class="navbar-brand" href="#">
+				<img src="./images/logo.png" alt="" width="30" height="30" class="d-inline-block align-top" >
+			</a>
+			<h3 id="title">GeoForums</h3>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="./index.html" id="home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./Forums.html" id="forums">Forums</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="members">Members</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="contact">Contact</a>
+					</li>
+					<li class="nav-item">
+						<button class="btn btn-outline-dark" onclick="gashaveba()">
+						  <i class="fa fa-moon"></i>
+						</button>
+					</li>
+					  
+					<li class="nav-item">
+                        <a class="nav-link" href="#" id="login">Login</a>
+                        </li>
+                        </ul>
+                        </div>
+                        </nav>
+                        </header>
+                        <main class="container" >
+                            <div class="row" >
+                                <div class="col-md-8" >
+                                    <div class="card mt-4" style="padding: 3%;">
+                                        <h2 class="card-title">Upcoming fight between Holloway and Allen</h2>
+                                        <img class="card-img-top" src="./images/041523-ufc-fight-night-holloway-vs-allen-EVENT-ART.jpg" alt="Harry Kane">
+                                        <div class="card-body">
+                                            <p class="add-read-more show-less-content">
+                                                
+                                                UFC Fight Night touches down in Kansas City on Saturday with a main event that has serious title implications for at least one fighter. Former UFC featherweight champion Max Holloway serves as the ultimate test for Arnold Allen as the Brit looks to make good on lofty expectations.
+
+                                                Holloway (23-7) finds himself gridlocked from the UFC featherweight championship following three losses to reigning titleholder Alexander Volkanovski, the last of which was by far the most decisive. Holloway is considered among the greatest featherweight champions in UFC history. For the first time in six years, Holloway is not definitively the 1A or 1B at 145 pounds. Holloway refutes that assessment and draws inspiration from UFC middleweight champion Israel Adesanya, who recently knocked out Alex Pereira after three losses to Pereira across MMA and kickboxing.
+                                                
+                                                "It's crazy to me. Are you insane? If being a champion wasn't my motivation, being the greatest wasn't my motivation, why would I take this fight?" Holloway asked reporters at Wednesday's media day. "If I was just in it to just fight or even get money grabs, I'd take easier fights. I'm fighting the guy they're talking about who is next in title contention, who a lot of guys thought should have got the interim title, you know? At the end of the day, to be the best, you got to beat the best, and the best is 'Blessed.'
+                                                
+                                                "People keep giving me a hard time like how are we gonna do the fourth, this and that. I mean, watching Izzy last week was pretty inspiring."
+                                                
+                                                Can't get enough boxing and MMA? Get the latest in the world of combat sports from two of the best in the business. Subscribe to Morning Kombat with Luke Thomas and Brian Campbell for the best analysis and in-depth news.  
+                                                </p>
+                                            <button class="btn btn-primary" id="read-more-btn">Read More</button> -->
+                                           
+                                            <div class="mb-3">
+                                                <label for="comment-body" class="form-label">Comment</label>
+                                                <textarea class="form-control" id="comment-body" rows="3"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-danger">Submit</button>
+                                        </div>
+                                        
+                                        <div class="card-body">
+                                            <h5 class="card-title">Comments</h5>
+                                            
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted">John Doe</h6>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend ligula id enim accumsan, eu semper quam sodales.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted">Jane Doe</h6>
+                                                <p class="card-text">Vestibulum congue ut tortor id placerat. Morbi in mauris ut felis vehicula pretium. Ut interdum efficitur justo, eget eleifend dolor fermentum sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                                    
+                            <div class="col-md-4">
+
+                                <div class="card mt-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Post Information</h5>
+                                        <p class="card-text">Author: John Doe</p>
+                                        <p class="card-text">Date Posted: March 17, 2023</p>
+                                        <p class="card-text">Category: Sports</p>
+                                    </div>
+                                </div>
+
+                                <div class="card mt-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Recommended posts</h5>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="#">What are the best hiking trails in the UK?</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">How do you prepare for a long-distance trek?</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Share your experiences of wild camping in Scotland</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">What is the best way to train for a marathon?</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+                    </div> 
+                                </main>
+                        <footer class="bg-danger text-white text-center p-3">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5>GeoForums</h5>
+                                        <p>A place for geographers and travel enthusiasts to connect and share their experiences</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                        
+                        <!-- Bootstrap JS files (placed at end of document to improve page load times) -->
+                        <script src="https://cdn.jsdelivr.net/npm
+                        /bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.3/dist/umd/popper.min.js"></script>
+
+                   <script>
+                    jQuery(function ($) {
+                        function AddReadMore() {
+                           
+                           var carLmt = 550;
+                           // Text to show when text is collapsed
+                           var readMoreTxt = " ...read more";
+                           // Text to show when text is expanded
+                           var readLessTxt = " read less";
+                      
+                      
+                           //Traverse all selectors with this class and manipulate HTML part to show Read More
+                           $(".add-read-more").each(function () {
+                              if ($(this).find(".first-section").length)
+                                 return;
+                      
+                              var allstr = $(this).text();
+                              if (allstr.length > carLmt) {
+                                 var firstSet = allstr.substring(0, carLmt);
+                                 var secdHalf = allstr.substring(carLmt, allstr.length);
+                                 var strtoadd = firstSet + "<span class='second-section'>" + secdHalf + "</span><span class='read-more'  title='Click to Show More'>" + readMoreTxt + "</span><span class='read-less' title='Click to Show Less'>" + readLessTxt + "</span>";
+                                 $(this).html(strtoadd);
+                              }
+                           });
+                      
+                           //Read More and Read Less Click Event binding
+                           $(document).on("click", ".read-more,.read-less", function () {
+                              $(this).closest(".add-read-more").toggleClass("show-less-content show-more-content");
+                           });
+                        }
+                      
+                        AddReadMore();
+                      });
+                   </script>
+
+                        </body>
+                        </html>                        

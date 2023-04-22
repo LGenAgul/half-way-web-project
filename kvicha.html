@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kvaratskhelia - GeoForums</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+	<header style=" 
+		position: sticky;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	">
+		<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+			<a class="navbar-brand" href="#">
+				<img src="./images/logo.png" alt="" width="30" height="30" class="d-inline-block align-top" >
+			</a>
+			<h3 id="title">GeoForums</h3>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="./index.html" id="home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./Forums.html" id="forums">Forums</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="members">Members</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  id="contact">Contact</a>
+					</li>
+					<li class="nav-item">
+						<button class="btn btn-outline-dark" onclick="gashaveba()">
+						  <i class="fa fa-moon"></i>
+						</button>
+					</li>
+					  
+					<li class="nav-item">
+                        <a class="nav-link" href="#" id="login">Login</a>
+                        </li>
+                        </ul>
+                        </div>
+                        </nav>
+                        </header>
+                        <main class="container" >
+                            <div class="row" >
+                                <div class="col-md-8" >
+                                    <div class="card mt-4" style="padding: 3%;">
+                                        <h2 class="card-title">Khvicha Kvaratskhelia’s effort picked as Serie A Goal of the Month</h2>
+                                        <video src="./videos/Khvicha Kvaratskhelia _ Player of the Month_ March 2023 _ Serie A 2022_23.mp4" autoplay controls mute></video>
+                                        <div class="card-body">
+                                            <p class="add-read-more show-less-content">
+                                                
+                                                Napoli has always had an infatuation with talismanic attacking players.
+
+                                                In recent years, there have been Dries Mertens and Lorenzo Insigne. A few years prior were Marek Hamsik and Ezequiel Lavezzi. But none have been more famous – or loved by Napoli fans – than Diego Maradona.
+                                                
+                                                The Argentine became the symbol of Neapolitan flare and brashness during his seven seasons in the south of Italy, scoring goals and winning titles.
+                                                
+                                                ‘El Pelusa’s’ legacy at the club – at which he led Napoli to their only Scudetto titles in 1986/87 and 1989/1990, as well as the club’s only European glory with the 1988/89 UEFA Cup – was such that it renamed its stadium after him following his death in 2020.
+                                                
+                                                Despite leaving the club in 1991, Maradona’s presence still looms large over the club and ‘El Pibe de Oro’ is the standard-bearer for diminutive, tricky, attacking players who come to the club.
+                                                
+                                                So to be compared to Maradona by Napoli’s fans comes with the hope that with it will bring the success the Argentine brought with him. Many players have come and gone – having been anointed Maradona’s successor – but a third Serie A title has remained elusive.
+                                                
+                                                Then, in July, a scruffy, unheralded Georgian winger rocked up at Napoli.
+                                                
+                                                Fast forward to November and despite arriving without much fanfare, Khvicha Kvaratskhelia is already being compared to Maradona. He’s been dubbed affectionately “Kvaradona” after a lightning start to life in Italy; one which has him linked to moves to huge clubs around Europe and has gripped the football-mad city.
+                                          </p>
+                                           
+                                            <div class="mb-3">
+                                                <label for="comment-body" class="form-label">Comment</label>
+                                                <textarea class="form-control" id="comment-body" rows="3"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-danger">Submit</button>
+                                        </div>
+                                        
+                                        <div class="card-body">
+                                            <h5 class="card-title">Comments</h5>
+                                            
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted">John Doe</h6>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend ligula id enim accumsan, eu semper quam sodales.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted">Jane Doe</h6>
+                                                <p class="card-text">Vestibulum congue ut tortor id placerat. Morbi in mauris ut felis vehicula pretium. Ut interdum efficitur justo, eget eleifend dolor fermentum sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                                    
+                            <div class="col-md-4">
+
+                                <div class="card mt-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Post Information</h5>
+                                        <p class="card-text">Author: John Doe</p>
+                                        <p class="card-text">Date Posted: March 17, 2023</p>
+                                        <p class="card-text">Category: Sports</p>
+                                    </div>
+                                </div>
+
+                                <div class="card mt-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Recommended posts</h5>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="#">What are the best hiking trails in the UK?</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">How do you prepare for a long-distance trek?</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Share your experiences of wild camping in Scotland</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">What is the best way to train for a marathon?</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+                    </div> 
+                                </main>
+                        <footer class="bg-danger text-white text-center p-3">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h5>GeoForums</h5>
+                                        <p>A place for geographers and travel enthusiasts to connect and share their experiences</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                        
+                        <!-- Bootstrap JS files (placed at end of document to improve page load times) -->
+                        <script src="https://cdn.jsdelivr.net/npm
+                        /bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.3/dist/umd/popper.min.js"></script>
+
+                   <script>
+                    jQuery(function ($) {
+                        function AddReadMore() {
+                           
+                           var carLmt = 550;
+                           // Text to show when text is collapsed
+                           var readMoreTxt = " ...read more";
+                           // Text to show when text is expanded
+                           var readLessTxt = " read less";
+                      
+                      
+                           //Traverse all selectors with this class and manipulate HTML part to show Read More
+                           $(".add-read-more").each(function () {
+                              if ($(this).find(".first-section").length)
+                                 return;
+                      
+                              var allstr = $(this).text();
+                              if (allstr.length > carLmt) {
+                                 var firstSet = allstr.substring(0, carLmt);
+                                 var secdHalf = allstr.substring(carLmt, allstr.length);
+                                 var strtoadd = firstSet + "<span class='second-section'>" + secdHalf + "</span><span class='read-more'  title='Click to Show More'>" + readMoreTxt + "</span><span class='read-less' title='Click to Show Less'>" + readLessTxt + "</span>";
+                                 $(this).html(strtoadd);
+                              }
+                           });
+                      
+                           //Read More and Read Less Click Event binding
+                           $(document).on("click", ".read-more,.read-less", function () {
+                              $(this).closest(".add-read-more").toggleClass("show-less-content show-more-content");
+                           });
+                        }
+                      
+                        AddReadMore();
+                      });
+                   </script>
+
+                        </body>
+                        </html>                        
